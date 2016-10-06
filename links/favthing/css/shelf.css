@@ -1,0 +1,14 @@
+img{
+	border:4px solid;
+	border-spacing:4px;
+	border-color:#7D5BA6;
+	margin:auto;
+}
+h1{
+text-align:center;
+	font-family: 'Catamaran', sans-serif;
+}
+p{
+	font-family: 'Catamaran', sans-serif;
+	text-align:center;
+	}
