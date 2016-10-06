@@ -16,7 +16,6 @@ div.indexcontent {
   clear: both;
   width: 100%;
   max-width: 1008px;
-  min-height: 630px;
   padding: 10px;
   margin: 8px auto;
   border: 3px solid #ffffff;
@@ -27,13 +26,13 @@ div.indexcontent {
 /**
  * Menu
  */
-/* line 37, ../../sass/mestyle.scss */
+/* line 36, ../../sass/mestyle.scss */
 div#navmenu {
   display: block;
   margin: 10px auto;
 }
 
-/* line 41, ../../sass/mestyle.scss */
+/* line 40, ../../sass/mestyle.scss */
 div#navmenu a {
   text-decoration: none;
   display: block;
@@ -52,23 +51,31 @@ div#navmenu a {
   text-shadow: 2px 2px #231F20;
 }
 
-/* line 58, ../../sass/mestyle.scss */
+/* line 57, ../../sass/mestyle.scss */
 div#navmenu a:hover {
   background-color: #88B7B5;
   color: #000000;
   text-shadow: 0px 0px #231F20;
 }
 
+/* line 62, ../../sass/mestyle.scss */
+#logo {
+  height: 90px;
+  float: left;
+  margin-right: 25px;
+  margin-left: 5px;
+}
+
 /**
  * Table styles
  */
-/* line 67, ../../sass/mestyle.scss */
+/* line 72, ../../sass/mestyle.scss */
 table, td {
   background-color: #B9E3C6;
   color: #231F20;
 }
 
-/* line 71, ../../sass/mestyle.scss */
+/* line 76, ../../sass/mestyle.scss */
 th {
   background-color: #7CA982;
   color: #f9;
@@ -76,14 +83,14 @@ th {
   padding: 4px;
 }
 
-/* line 77, ../../sass/mestyle.scss */
+/* line 82, ../../sass/mestyle.scss */
 table th, td {
   border: 2px solid;
   border-spacing: 1px;
   border-color: #7CA982;
 }
 
-/* line 82, ../../sass/mestyle.scss */
+/* line 87, ../../sass/mestyle.scss */
 table {
   width: 750px;
   margin: auto;
@@ -94,7 +101,7 @@ table {
   font-size: 12pt;
 }
 
-/* line 91, ../../sass/mestyle.scss */
+/* line 96, ../../sass/mestyle.scss */
 table td#site {
   text-align: center;
   font-weight: bold;
@@ -103,7 +110,7 @@ table td#site {
 /**
  * Headers
  */
-/* line 99, ../../sass/mestyle.scss */
+/* line 104, ../../sass/mestyle.scss */
 h1 {
   color: #7CA982;
   font-weight: bold;
@@ -113,7 +120,7 @@ h1 {
   text-shadow: 1px 1px #231F20;
 }
 
-/* line 108, ../../sass/mestyle.scss */
+/* line 113, ../../sass/mestyle.scss */
 h2 {
   font-family: 'Lovers Quarrel', cursive;
   font-size: 78pt;
@@ -122,7 +129,7 @@ h2 {
   text-align: center;
 }
 
-/* line 115, ../../sass/mestyle.scss */
+/* line 120, ../../sass/mestyle.scss */
 h3 {
   font-family: 'Catamaran', sans-serif;
   text-align: left;
@@ -133,25 +140,25 @@ h3 {
 /**
  * Text
  */
-/* line 125, ../../sass/mestyle.scss */
+/* line 130, ../../sass/mestyle.scss */
 a {
   text-decoration: none;
   color: #231F20;
 }
-/* line 129, ../../sass/mestyle.scss */
+/* line 134, ../../sass/mestyle.scss */
 a:hover {
   color: #66ccff;
   cursor: pointer;
 }
 
-/* line 134, ../../sass/mestyle.scss */
+/* line 139, ../../sass/mestyle.scss */
 p {
   font-family: 'Catamaran', sans-serif;
   text-align: left;
   font-size: 12pt;
 }
 
-/* line 139, ../../sass/mestyle.scss */
+/* line 144, ../../sass/mestyle.scss */
 img {
   max-width: 100%;
 }
@@ -159,7 +166,7 @@ img {
 /**
  * Specific Styles
  */
-/* line 146, ../../sass/mestyle.scss */
+/* line 151, ../../sass/mestyle.scss */
 img#katie {
   border: 2px solid;
   border-spacing: 2px;
